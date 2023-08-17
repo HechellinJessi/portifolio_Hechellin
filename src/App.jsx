@@ -1,7 +1,5 @@
 import styled from "styled-components";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; // Note a mudança aqui: "Routes" e "Route" em vez de "Switch"
-
-import Contact from "./components/Contact";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; 
 import Hero from "./components/Hero";
 import Who from "./components/Who";
 import Works from "./components/Works";
@@ -25,7 +23,7 @@ function App() {
     <Router>
       <Container>
         <Routes>
-          <Route path="/Portif-lio-HechellinJessi" element={<Hero />} />
+          <Route path="/portifolio_Hechellin" element={<Hero />} />
           <Route path="/who" element={<Who />} />
           <Route path="/works" element={<Works />} />
           <Route path="/contact" element={<Contact />} />
