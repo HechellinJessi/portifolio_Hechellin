@@ -25,7 +25,7 @@ function App() {
     <Router>
       <Container>
         <Routes>
-          <Route path="/" element={<Hero />} />
+          <Route path="/Portif-lio-HechellinJessi" element={<Hero />} />
           <Route path="/who" element={<Who />} />
           <Route path="/works" element={<Works />} />
           <Route path="/contact" element={<Contact />} />
